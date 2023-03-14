@@ -27,15 +27,15 @@ $('.message a').click(function(){
 // FOI AQUI PRA BAIXO QUE EU TENTEI |
 //                                  V
 
-function screenSize(){
-    var windowWidth = window.innerWidth;
+// function screenSize(){
+//     var windowWidth = window.innerWidth;
 
-    document.querySelector('.window-size').innerHTML = windowWidth + 'x' + windowHeight;
+//     document.querySelector('.window-size').innerHTML = windowWidth + 'x' + windowHeight;
 
-};
+// };
 
-screenSize();
+// screenSize();
 
-window.addEventListener('resize', function(){
-	screenSize();
-});
+// window.addEventListener('resize', function(){
+// 	screenSize();
+// });
